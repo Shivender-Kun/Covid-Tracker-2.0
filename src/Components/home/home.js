@@ -1,9 +1,15 @@
 import React from "react";
 import loadable from "@loadable/component";
-import { CovidData, TotalDataCards, fetchData, CovidCities } from "../indexing";
+import {
+  CovidData,
+  MapData,
+  TotalDataCards,
+  fetchData,
+  CovidCities,
+} from "../indexing";
 import "./home.css";
 
-const MapData = loadable(() => import("../Map_data/Map_data"));
+// const MapData = loadable(() => import("../Map_data/Map_data"));
 const ChartData = loadable(() => import("../Chart_data/Chart_data"));
 
 const Home = () => {
