@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/Usersacer.npmrc
 /.pnp
 .pnp.js
 
