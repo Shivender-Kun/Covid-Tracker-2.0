@@ -1,0 +1,19 @@
+#project-title {
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+header {
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  background: rgb(101, 59, 252);
+}
+
+@media (max-width: 920px) {
+  header {
+    width: 100%;
+    font-size: 10px;
+  }
+}
