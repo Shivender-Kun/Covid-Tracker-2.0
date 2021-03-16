@@ -93,7 +93,7 @@ option:nth-child(2) {
 @media (max-width: 600px) {
   select {
     width: 35%;
-    padding: 5px 10px;
+    padding: 8px 10px;
     font-size: 11px;
   }
 
