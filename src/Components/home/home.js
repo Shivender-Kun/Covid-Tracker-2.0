@@ -27,13 +27,15 @@ const Home = () => {
   return (
     <div className="homes">
       {data ? <TotalDataCards data={data["total_values"]} /> : null}
+      <div>
+        <CovidCities />
+      </div>
       <div id="homeFlex">
-        <div id="covid_data">
-          <CovidCities />
-          {data ? <CovidData data={data["state_wise"]} /> : null}
-        </div>
         <div id="map_data">
           <MapData />
+        </div>
+        <div id="covid_data">
+          {data ? <CovidData data={data["state_wise"]} /> : null}
         </div>
         <div id="chart_data">
           <ChartData />

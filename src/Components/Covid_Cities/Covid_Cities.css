@@ -1,5 +1,5 @@
 .covidCities{
-  margin: 40px auto;
+  margin: 60px auto;
 }
 #city_title {
   color: aliceblue;
@@ -9,7 +9,7 @@
 
 #cityData{
   min-height: 75vh;
-  margin: 20px auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,8 +78,8 @@ option:nth-child(2) {
 }
 
 .cityCharts {
-  width: 85%;
-  margin-top: 20px;
+  width: 75%;
+  margin-top: 40px;
   height: 350px;
   background: rgba(39, 22, 114, 0.356);
   border-radius: 20px;

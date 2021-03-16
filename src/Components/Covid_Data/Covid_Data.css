@@ -7,15 +7,17 @@
 
 tr {
   font-size: 12px;
+  
   font-weight: 500;
-  transition: 0.15s ease-out;
+  /* transition: 0.15s ease-out; */
   background-color: rgba(253, 253, 253, 0.384);
   box-shadow: 2px 2px black;
 }
 
 td {
   height: 45px;
-  width: 18vw;
+  width: 18%;
+  max-width: 20%;
   padding: 5px 9px;
   box-shadow: 2px 2px black;
 }
@@ -23,7 +25,9 @@ td {
 tr:hover {
   background-color: rgba(255, 255, 255, 0.39);
   font-weight: 700;
-  box-shadow: 4px 4px black;
+  transform: scale(1.001);
+  box-shadow: 5px 5px black;
+  transition: 400ms ease-in-out;
 }
 
 tr:nth-child(1) {
@@ -54,11 +58,11 @@ tr:nth-child(1) {
 
 @media (min-width: 600px) {
   tr {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   tr:hover {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   tr:nth-child(1) {

@@ -68,7 +68,7 @@ export default class CovidCities extends React.Component {
     }
 
     return (
-      <div className="covidCities">
+      <div className="covidCities" id="covid_data">
         <main>
           <form id="searchState" onSubmit={this.searchState}>
             <label className="inputArea">Select State</label>

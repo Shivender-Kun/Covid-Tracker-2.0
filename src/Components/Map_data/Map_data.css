@@ -1,6 +1,6 @@
 .map {
-  margin-top: 60px;
-  width: 90vw;
+  margin-top: 30px;
+  width: 80vw;
 }
 
 .mapContainer,
@@ -30,21 +30,21 @@
 }
 
 #map_title {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   color: aliceblue;
 }
 
 @media (min-width: 700px) {
   .map {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 }
 
 @media (min-width: 1100px) {
   .map {
-    top: 60px;
-    width: 50vw;
-    height: 100vh;
+    
+    width: 60vw;
+    height: 87vh;
   }
 
   .mapContainer,
