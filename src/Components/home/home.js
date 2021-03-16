@@ -9,7 +9,6 @@ import {
 } from "../indexing";
 import "./home.css";
 
-// const MapData = loadable(() => import("../Map_data/Map_data"));
 const ChartData = loadable(() => import("../Chart_data/Chart_data"));
 
 const Home = () => {
@@ -22,6 +21,8 @@ const Home = () => {
       setData(apidata);
     };
     fetch();
+    console.log(window.innerWidth);
+    console.log(window.innerHeight);
   }, []);
 
   return (

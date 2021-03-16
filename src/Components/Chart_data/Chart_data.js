@@ -3,6 +3,7 @@ import "./Chart_data.css";
 import { fetchHistory } from "../indexing";
 import { Line } from "react-chartjs-2";
 
+let width = window.innerWidth;
 export default class ChartData extends React.Component {
   constructor(props) {
     super(props);
@@ -153,7 +154,7 @@ export default class ChartData extends React.Component {
                       title: {
                         display: true,
                         text: "Confirmed Cases In India",
-                        fontSize: 18,
+                        fontSize: width < 400 ? 13 : 18,
                         fontColor: "white",
                       },
                       legend: {
@@ -176,7 +177,7 @@ export default class ChartData extends React.Component {
                             ticks: {
                               stepSize: finalValue ? 20000 : 2000000,
                               fontColor: "red",
-                              fontSize: 13,
+                              fontSize: width < 400 ? 11 : 13,
                               callback: function (value) {
                                 return finalValue
                                   ? value / 1000 + " K"
@@ -228,7 +229,7 @@ export default class ChartData extends React.Component {
                     title: {
                       display: true,
                       text: "Recovered Cases In India",
-                      fontSize: 18,
+                      fontSize: width < 400 ? 13 : 18,
                       fontColor: "white",
                     },
                     legend: {
@@ -251,7 +252,7 @@ export default class ChartData extends React.Component {
                           ticks: {
                             stepSize: finalValue ? 30000 : 2000000,
                             fontColor: "lightgreen",
-                            fontSize: 13,
+                            fontSize: width < 400 ? 11 : 13,
                             callback: function (value) {
                               return finalValue
                                 ? value / 1000 + " K"
@@ -301,7 +302,7 @@ export default class ChartData extends React.Component {
                     title: {
                       display: true,
                       text: "Deaths In India",
-                      fontSize: 18,
+                      fontSize: width < 400 ? 13 : 18,
                       fontColor: "white",
                     },
                     legend: {
@@ -324,7 +325,7 @@ export default class ChartData extends React.Component {
                           ticks: {
                             stepSize: finalValue ? 1000 : 30000,
                             fontColor: "lightgrey",
-                            fontSize: 13,
+                            fontSize: width < 400 ? 11 : 13,
                             callback: function (value) {
                               return value / 1000 + " K";
                             },
@@ -370,7 +371,7 @@ export default class ChartData extends React.Component {
                     title: {
                       display: true,
                       text: "Tests In India",
-                      fontSize: 18,
+                      fontSize: width < 400 ? 13 : 18,
                       fontColor: "white",
                     },
                     legend: {
@@ -393,7 +394,7 @@ export default class ChartData extends React.Component {
                           ticks: {
                             stepSize: finalValue ? 400000 : 40000000,
                             fontColor: "pink",
-                            fontSize: 13,
+                            fontSize: width < 400 ? 11 : 13,
                             callback: function (value) {
                               return finalValue
                                 ? value / 100000 + " L"

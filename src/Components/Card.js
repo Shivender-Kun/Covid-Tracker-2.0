@@ -6,7 +6,7 @@ export default function Card(props) {
 
   return (
     <div id={id}>
-      <div>
+      <div id="card-data">
         <h4>{title}</h4>
         <div className="dataset">
           <h5 id="_conf">

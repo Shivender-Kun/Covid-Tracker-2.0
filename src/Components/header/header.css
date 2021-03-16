@@ -12,9 +12,7 @@ header {
   z-index: 3;
   position: fixed;
   background: rgb(144, 126, 245);
-  /* background-image: url("../images/stay-safe.png");
-  background-size: contain;
-  background-repeat: no-repeat; */
+  
 }
 
 img {
@@ -29,7 +27,13 @@ img {
   width: 73px;
   border-radius: 0;
   border: none;
-  background-color: khaki;
+  background-color: transparent;
+}
+
+#accounts-icon {
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 a {

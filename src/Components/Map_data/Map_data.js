@@ -45,7 +45,7 @@ export default function MapData() {
         container: mapboxElRef.current,
         style: "mapbox://styles/pervert/ckmbpwke3909e17pgdi8kplu2",
         center: [83, 22.5],
-        zoom: windowWidth < 500 ? 2 : 3.8,
+        zoom: windowWidth < 500 ? 3 : 3.8,
       });
 
       map.addControl(new mapboxgl.NavigationControl());

@@ -12,7 +12,7 @@ export default function Header() {
         <div id="heading">
           <h1 id="project-title">COVID-19 India V2.0</h1>
         </div>
-        <div>
+        <div id="accounts-icon">
           <a href="https://github.com/Shivender-kun" target="blank">
             <img src={Github} alt="My Github account" />
           </a>

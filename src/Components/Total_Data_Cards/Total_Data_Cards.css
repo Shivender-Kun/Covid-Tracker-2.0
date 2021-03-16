@@ -5,6 +5,10 @@
   cursor: default;
 }
 
+/* #card-data {
+  flex: 1;
+} */
+
 #card_title {
   margin-bottom: 20px;
   color: rgb(155, 235, 245);

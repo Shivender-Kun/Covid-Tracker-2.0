@@ -1,0 +1,87 @@
+@media (max-width: 450px){
+  h1 {
+    font-size: 14px !important;
+  }
+
+  h2 {
+    font-size: 13.5px !important;
+  }
+
+  h3 {
+    font-size: 12px !important;
+    margin: 10px !important;
+  }
+
+  h4 {
+    font-size: 10.5px !important;
+  }
+
+  h5 {
+    font-size: 10px !important;
+    /* margin: 10px !important; */
+  }
+
+  h6 {
+    font-size: 9px !important;
+    /* margin: 10px !important; */
+  }
+
+  p {
+    font-size: 12px !important;
+    margin: 10px !important;
+  }
+
+  img {
+    width: 25px !important;
+  }
+
+  #safe-img {
+    width: 40px !important;
+  }
+
+  .all_charts div div {
+    margin: 10px auto;
+    width: 98%;
+    height: 220px !important;
+  }
+
+  hr {
+    margin-top: 80px;
+  }
+
+  footer {
+    padding: 10px 20px !important;
+  }
+
+  .map {
+    margin-top: 10px;
+  }
+
+  .covidCities{
+    margin: 25px auto;
+  }
+
+  #last_updated {
+    font-size: 9px;
+  }
+
+  #confirmed_card,
+  #active_card,
+  #deaths_card,
+  #deaths_card,
+  #recovered_card {
+    padding: 10px 0px 0px;
+  }
+
+  select {
+    width: 55%;
+  }
+
+  #covid_data {
+    margin-top: 30px;
+  }
+
+  #map_title {
+    margin-bottom: 10px;
+  }
+}
