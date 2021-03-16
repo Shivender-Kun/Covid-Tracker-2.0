@@ -5,7 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicGVydmVydCIsImEiOiJja2wweHZiMHYybjZhMndwaDdwN2l6d2xqIn0.e4tAcQDjhs53APwuNcWhcA";
-
+const windowWidth = window.innerWidth;
 export default function MapData() {
   const mapboxElRef = useRef(null);
   const indiaData = useMemo(() => {
@@ -44,7 +44,7 @@ export default function MapData() {
         container: mapboxElRef.current,
         style: "mapbox://styles/pervert/ckmbpwke3909e17pgdi8kplu2",
         center: [83, 22.5],
-        zoom: 3.3,
+        zoom: windowWidth < 500 ? 3 : 3.8,
       });
 
       map.addControl(new mapboxgl.NavigationControl());
