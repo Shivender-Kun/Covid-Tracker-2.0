@@ -5,10 +5,42 @@
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   z-index: 3;
   position: fixed;
-  background: rgb(101, 59, 252);
+  background: rgb(144, 126, 245);
+  /* background-image: url("../images/stay-safe.png");
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+img {
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  border: 3px solid rgba(255, 0, 179, 0.938);
+  border-radius: 20px;
+}
+
+#safe-img {
+  width: 73px;
+  border-radius: 0;
+  border: none;
+  background-color: khaki;
+}
+
+a {
+  margin-right: 10px;
+}
+
+#heading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 920px) {
