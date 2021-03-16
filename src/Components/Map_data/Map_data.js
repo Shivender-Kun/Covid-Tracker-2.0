@@ -4,7 +4,7 @@ import "./Map_data.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoidHJib3QiLCJhIjoiY2s3NmFscm1xMTV0MDNmcXFyOWp1dGhieSJ9.tR2IMHDqBPOf_AeGjHOKFA";
+  "pk.eyJ1IjoicGVydmVydCIsImEiOiJja2wweHZiMHYybjZhMndwaDdwN2l6d2xqIn0.e4tAcQDjhs53APwuNcWhcA";
 
 export default function MapData() {
   const mapboxElRef = useRef(null);
@@ -42,7 +42,7 @@ export default function MapData() {
     if (indiaData) {
       const map = new mapboxgl.Map({
         container: mapboxElRef.current,
-        style: "mapbox://styles/mapbox/outdoors-v11",
+        style: "mapbox://styles/pervert/ckmbpwke3909e17pgdi8kplu2",
         center: [83, 22.5],
         zoom: 3.3,
       });
