@@ -5,6 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoicGVydmVydCIsImEiOiJja2wweHZiMHYybjZhMndwaDdwN2l6d2xqIn0.e4tAcQDjhs53APwuNcWhcA";
+
 const windowWidth = window.innerWidth;
 export default function MapData() {
   const mapboxElRef = useRef(null);
