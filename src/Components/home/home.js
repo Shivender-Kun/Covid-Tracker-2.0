@@ -21,8 +21,6 @@ const Home = () => {
       setData(apidata);
     };
     fetch();
-    console.log(window.innerWidth);
-    console.log(window.innerHeight);
   }, []);
 
   return (
