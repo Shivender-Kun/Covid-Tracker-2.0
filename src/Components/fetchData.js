@@ -11,7 +11,7 @@ const stateData = {
 
 const historyData = {
   method: "get",
-  url: "https://api.covid19india.org/data.json",
+  url: "https://data.covid19india.org/data.json",
   headers: {},
 };
 
