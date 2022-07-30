@@ -3,7 +3,7 @@ import "./Covid_Cities.css";
 import { CityTable } from "../indexing";
 import Chart from "./City_Chart_Data/CityChart";
 
-const url = "https://api.covid19india.org/state_district_wise.json";
+const url = "https://data.covid19india.org/state_district_wise.json";
 
 let stateName;
 let currentStateName = "";
